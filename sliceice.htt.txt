@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slice Ice Snowcones</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f0f8ff;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #ff5733;
+            color: white;
+            padding: 20px;
+            font-size: 24px;
+        }
+        .container {
+            margin: 20px;
+        }
+        .menu, .hot-food-menu {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .item {
+            background: white;
+            margin: 10px;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 200px;
+        }
+        .section {
+            margin: 40px 0;
+        }
+        footer {
+            background-color: #ff5733;
+            color: white;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        Slice Ice Snowcones - Cool Down with Flavor!
+    </header>
+    <div class="container">
+        <div class="section">
+            <h2>About Us</h2>
+            <p>Slice Ice Snowcones is a locally owned and operated shave ice business in Benbrook, Texas. Established in 2025, our mission is to bring a taste of the tropics to our customers with handcrafted shave ice and delicious hot food options.</p>
+        </div>
+        <div class="section">
+            <h2>Our Flavors</h2>
+            <div class="menu">
+                <div class="item">Mango Madness</div>
+                <div class="item">Blue Raspberry Bliss</div>
+                <div class="item">Pineapple Paradise</div>
+                <div class="item">Strawberry Dream</div>
+                <div class="item">Tropical Mix</div>
+            </div>
+        </div>
+        <div class="section">
+            <h2>Hot Food Menu</h2>
+            <div class="hot-food-menu">
+                <div class="item">Fried Stuffed Chicken Wings</div>
+                <div class="item">Chicken Alfredo</div>
+                <div class="item">Burgers</div>
+                <div class="item">Loaded Fries</div>
+                <div class="item">Nachos</div>
+                <div class="item">Fried Fish</div>
+                <div class="item">Chicken Salads</div>
+                <div class="item">Fried Ice Cream</div>
+                <div class="item">Fried Oreos</div>
+                <div class="item">Fried Cheesecake</div>
+            </div>
+        </div>
+        <div class="section">
+            <h2>Contact Us</h2>
+            <p>Phone: 682-390-6800</p>
+            <p>Email: <a href="mailto:Darrell.green59@gmail.com">Darrell.green59@gmail.com</a></p>
+            <p>Follow us on <a href="#">Facebook</a></p>
+        </div>
+    </div>
+    <footer>
+        &copy; 2025 Slice Ice Snowcones | Bringing joy to your events!
+    </footer>
+</body>
+</html>
